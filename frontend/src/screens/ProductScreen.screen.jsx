@@ -1,13 +1,12 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
 // import Rating from '../components/Rating.component';
-// import products from '../products';
+import products from '../products';
 
 const ProductScreen = ({ history, location, match }) => {
-    // const product = products.find(product => product._id === match.params.id);
-    console.log(location.pathname);
+    const product = products.find(product => product._id === match.params.id);
 
-    return <>hello world</>;
+    return <>{product.name}</>;
 };
 
 export default ProductScreen;
