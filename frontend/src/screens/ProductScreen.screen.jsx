@@ -1,6 +1,6 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
-// import Rating from '../components/Rating.component';
+import { Link } from 'react-router-dom';
+import Rating from '../components/Rating.component';
 import products from '../products';
 
 const ProductScreen = ({ history, location, match }) => {
