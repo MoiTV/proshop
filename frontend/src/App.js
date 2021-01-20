@@ -14,8 +14,8 @@ const App = () => {
                 <Container>
                     <Route exact path='/' component={HomeScreen} />
                     <Route path='/product/:id' component={ProductScreen} />
-                </Container>{' '}
-            </main>{' '}
+                </Container>
+            </main>
             <Footer />
         </Router>
     );
